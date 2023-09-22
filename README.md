@@ -10,6 +10,14 @@ Accomplishments
 To build a working App
 
 Expected Challenges
-API ease of use (some extra code was required to make the app work)
+
 Able to use the Methods to find the DOM elements, eg query selector
 
+
+
+
+
+https://bible-api.com/
+
+
+no Key required
