@@ -8,3 +8,46 @@ body {
     justify-content:center;
     gap: 10px
 }
+
+.welcome {
+    display:flex;
+    justify-content: center;
+}
+
+.memorize {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.instructions {
+    display: flex;
+    justify-content:center;
+    background-color: lightgreen;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.resourceLink {
+    display: flex;
+    justify-content:center;
+    background-color: lightgreen;
+
+}
+
+.resourceLink2 {
+    display: flex;
+    justify-content:center;
+    background-color: lightgreen;
+
+}
+
+    
+
+
+
