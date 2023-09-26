@@ -2,6 +2,10 @@ body {
     background-color: lightskyblue;
 }
 
+#passage {
+    display:flex;
+    justify-content:center;
+}
 
 .buttons {
     display:flex;
@@ -23,7 +27,7 @@ body {
 .instructions {
     display: flex;
     justify-content:center;
-    background-color: lightgreen;
+    background-color: green;
 }
 
 .resources {
