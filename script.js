@@ -1,9 +1,9 @@
 
 //getting the elements from HTML by referencing the label(class by# and saving it to location (const bookInput, chaperInput and verse Input)
-const bookInput2 = document.querySelector('#bookInput')
-const chapterInput2 = document.querySelector('#chapterInput')
-const verseInput2 = document.querySelector('#verseInput')
-
+const bookInput = document.querySelector('#bookInput')
+const chapterInput = document.querySelector('#chapterInput')
+const verseInput = document.querySelector('#verseInput')
+const content= document.querySelector('#passage')
 const button = document.querySelector('#submitButton')
 
 
@@ -11,30 +11,14 @@ const button = document.querySelector('#submitButton')
 button.addEventListener('click', async () => {
 
   let response = await axios.get(
-    `https://bible-api.com/${bookInput}:${chapterInput}:${verseInput}`
+    `https://bible-api.com/${bookInput.value} ${chapterInput.value}:${verseInput.value}`
   )
-    console.log(response.data) 
+    //console.log(response.data) 
+    content.innerText=response.data.verses[0].text
 })
 
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Fernando make passage = text. It should work
+  //Fernando make passage = text. It should work
 
   // https://bible-api.com/${bookInput}:${chapterInput}:${verseInput}
 
