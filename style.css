@@ -10,26 +10,35 @@ body {
   display: flex;
   justify-content:center;
   font-size:20px;
+  border: 1px solid gold
+  
 }
 
 .buttons {
     display:flex;
     justify-content:center;
     gap:5px;
-    background-color:lightgrey; 
+    background-color: #900C3F; 
+    height:40px;
 }
 
 #bookInput {
   background-color: none;
   border:2px solid gold;
+  border-radius: 8px;
+  font-size:medium;
   }
 #chapterInput {
   background-color: none;
   border:2px solid gold;
+  border-radius: 8px;
+  font-size:medium;
 }
 #verseInput {
   background-color:none;
   border:2px solid gold;
+  border-radius: 8px;
+  font-size:medium;
   
 }
 #submitButton {
@@ -40,45 +49,56 @@ body {
 
 
 
-.welcome {
+.memApp {
     display:flex;
     justify-content: center;
 }
 
-.memorize {
+.enterKeyVerse {
     display: flex;
     justify-content: center;
     background-color: #f8fff9;
 }
 
-.instructions {
+/* .instructions {
     display: flex;
-    justify-content:center;
+    justify-content:left;
     background-color: white;
-}
+} */
 
-.resources {
+/* .resources {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: white;
     
-}
+} */
 
-.resourceLink {
+/* .resourceLink {
     display: flex;
-    justify-content:center;
+    justify-content:left;
     background-color: white;
+} */
 
-}
-
-.resourceLink2 {
+/* .resourceLink2 {
     display: flex;
-    justify-content:center;
+    justify-content:left;
     background-color: white;
+} */
 
+/* .resourceLink,a {
+  text-decoration: none;
+  color:#023020; 
+}   */
+
+.pic {
+  display: flex;
+  justify-content:center; 
 }
 
-    
+.pic, src {
+  background-color: #900C3F;
+}
 
-
-
+audio::-webkit-media-controls-panel {
+  background-color:#f8fff9
+}

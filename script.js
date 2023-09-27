@@ -3,8 +3,9 @@
 const bookInput = document.querySelector('#bookInput')
 const chapterInput = document.querySelector('#chapterInput')
 const verseInput = document.querySelector('#verseInput')
-const content= document.querySelector('#passage')
 const button = document.querySelector('#submitButton')
+
+const content= document.querySelector('#passage')
 
 
 //Click is an event listener. event listeners takes a string as an argument.
