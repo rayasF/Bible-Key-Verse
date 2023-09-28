@@ -40,6 +40,7 @@ h5 {
 .buttons {
     display:flex;
     justify-content:center;
+    flex-wrap: wrap;
     gap:5px;
     background-color: #900C3F; 
     height:40px;
@@ -89,29 +90,29 @@ h5 {
     background-color: white;
 } */
 
-/* .resources {
+.resources {
     display: flex;
     justify-content: left;
     background-color: white;
     
 } */
 
-/* .resourceLink {
+.resourceLink {
     display: flex;
     justify-content:left;
     background-color: white;
-} */
+}
 
-/* .resourceLink2 {
+.resourceLink2 {
     display: flex;
     justify-content:left;
     background-color: white;
-} */
+}
 
-/* .resourceLink,a {
+.resourceLink,a {
   text-decoration: none;
   color:#023020; 
-}   */
+}  
 
 .pic {
   display: flex;
@@ -133,6 +134,50 @@ audio::-webkit-media-controls-play-button {
   border-radius: 50%;
 }
 
+/* @media only screen and  (max-width:400px) {
+  .buttons{width:98vb;}
+} */
+
+
+/* .flexbox-outerBooksofBible {
+  display:flex;
+  justify-content: space-between;
+}
+.flexbox-innerBooksofBible {
+  min-height: none;
+} */
+
+
+.flexboxBooksofBible {
+  display:flex;
+  justify-content: center;
+}
+
+.flexbox-container {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+.flexbox-item {
+  width:200px;
+  margin:10px;
+  border:1px solid gold;
+  background-color:#f8fff9;
+}
+
+.flexbox-item-1 {
+  min-height: 200px;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+}
+.flexbox-item-3 {
+  min-height: 200px;
+}
+.flexbox-item-4 {
+  min-height: 200px;
+}
 /* audio::-webkit-media-controls-volume-slider {
   background-color: gold;
   border-radius: 25px;
