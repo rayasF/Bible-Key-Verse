@@ -3,9 +3,17 @@
 const bookInput = document.querySelector('#bookInput')
 const chapterInput = document.querySelector('#chapterInput')
 const verseInput = document.querySelector('#verseInput')
+
+
+
 const button = document.querySelector('#submitButton')
 
-const content= document.querySelector('#passage')
+
+const reference= document.querySelector("#reference")
+const text= document.querySelector("#text")
+const transLationId= document.querySelector("#transLationId")
+const transLationName= document.querySelector("#transLationName")
+
 
 
 //Click is an event listener. event listeners takes a string as an argument.
@@ -14,12 +22,35 @@ button.addEventListener('click', async () => {
   let response = await axios.get(
     `https://bible-api.com/${bookInput.value} ${chapterInput.value}:${verseInput.value}`
   )
-    //console.log(response.data) 
-    content.innerText=response.data.verses[0].text
+    console.log(response.data)
+    
+    
+    reference.innerText=response.data.reference
+    text.innerText=response.data.verses[0].text
+    transLationId.innerText=response.data.translation_id
+    transLationName.innerText=response.data.translation_name
+    
+
+    
+    
 })
 
 
-  //Fernando make passage = text. It should work
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Fernando make passage = text. It should work
 
   // https://bible-api.com/${bookInput}:${chapterInput}:${verseInput}
 
