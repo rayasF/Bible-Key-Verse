@@ -148,6 +148,11 @@ audio::-webkit-media-controls-play-button {
 } */
 
 
+
+
+
+/* Bible books table  */
+
 .flexboxBooksofBible {
   display:flex;
   justify-content: center;
